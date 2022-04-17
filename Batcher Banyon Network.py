@@ -4,7 +4,7 @@ Created on Fri Apr  1 16:19:04 2022
 
 @author: User
 """
-#8 or 16
+
 
 
 import random
