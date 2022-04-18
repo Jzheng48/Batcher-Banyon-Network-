@@ -1,8 +1,11 @@
 pipeline{
        agent any
-       stage("first running"){
-             steps{
-	  bat 'python Batcher_Banyon_Network1.py '
-              }
+       stages{
+             stage("first running"){
+	   steps{
+	         bat 'python Batcher_Banyon_Network1.py '
+                  }
+             }
+          
        }
 }
