@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'sdadadadadada'
+                bat 'python main.py'
             }
         }
         
