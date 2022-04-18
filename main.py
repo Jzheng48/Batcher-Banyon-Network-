@@ -121,8 +121,8 @@ def input8(listb):
     
         
 
-innum = input("Enter number of inputs(8 or 16): ")
-innum=int(innum)
+#innum = input("Enter number of inputs(8 or 16): ")
+innum=int(16)
 
 list=[]
 
